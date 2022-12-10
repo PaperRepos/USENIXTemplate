@@ -1,4 +1,4 @@
-filename=paper
+filename=main
 
 pdf: ps
 	@#ps2pdf ${filename}.ps
