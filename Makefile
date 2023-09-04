@@ -52,6 +52,8 @@ clean:
 	rm -vf ${filename}.dvi
 	rm -vf ${filename}.bbl
 	rm -vf ${filename}.blg
+	rm *.dvi *.ps *.thm *.tgz *.zip *.rpi *.pdf \
+	*.fls *.fdb_latexmk *.synctex.gz
 
 spell:
 	$(RM) $(SPELLCHECK_OUT)
